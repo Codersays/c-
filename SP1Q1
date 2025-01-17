@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int fact=1;
+int n;
+int i;
+cout<<"factorial of the number"<<endl;
+cout<<"Enter value of n"<<endl;
+cin>>n;
+for(i=1;i<n;i++)
+{
+    fact=fact*i;
+}
+cout<<"fact;"<<fact;
+return 0;
+}
